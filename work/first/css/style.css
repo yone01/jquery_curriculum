@@ -54,3 +54,45 @@
 .large {
   font-size:30px;
 }
+
+.q1-color {
+  color: red;
+}
+
+.q2-color {
+  background-color: cadetblue;
+}
+
+.q3-color {
+  animation : fadeOut 2s;
+  animation-fill-mode: both;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.large {
+  font-size: 30px;
+}
+
+.margin {
+  animation : margin 2s;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+@keyframes margin {
+  0% {
+  margin-top: 0;
+  margin-left: 0;
+  }
+  100% {
+  margin-top: 100px;
+  margin-left: 100px;
+  }
+}
